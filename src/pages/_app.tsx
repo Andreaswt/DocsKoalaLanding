@@ -1,8 +1,7 @@
-import { type AppType } from "next/dist/shared/lib/utils";
 import { Work_Sans } from "@next/font/google";
+import { type AppType } from "next/dist/shared/lib/utils";
 
 import "../styles/globals.css";
-import Head from "next/head";
 
 const workSans = Work_Sans({
   subsets: ["latin"],

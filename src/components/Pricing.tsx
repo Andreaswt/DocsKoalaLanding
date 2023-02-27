@@ -331,10 +331,10 @@ export default function Pricing() {
               </h4>
               <p>
                 We stand behind our product, DocsKoala, and are confident that
-                it will meet your needs. However, if you're not completely
+                it will meet your needs. However, if you&apos;re not completely
                 satisfied with your purchase within 30 days of the release of
                 DocsKoala, we will refund 100% of your money – no questions
-                asked. Simply email us at support@docskoala.com, and we'll
+                asked. Simply email us at support@docskoala.com, and we&apos;ll
                 gladly process your refund.
               </p>
             </div>

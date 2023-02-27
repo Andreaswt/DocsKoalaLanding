@@ -16,7 +16,7 @@ export default function FAQ() {
             <p className="text-gray-500">
               We aim to launch the initial version of DocsKoala by the 1st of
               May 2023. This version will make you able to build a help center
-              as shown in GIF's on this page. Additional features will
+              as shown in GIF&apos;s on this page. Additional features will
               continuously be rolled out after launch.
             </p>
           </div>
@@ -86,10 +86,10 @@ export default function FAQ() {
               <b className="font-semibold">
                 A guided way to build help centers
               </b>{" "}
-              With DocsKoala's inbuilt general components, you don't need to
-              worry about inserting a headline, text, code snippet, etc. for
-              each endpoint. Instead, you can just fill out the blanks in the
-              general component
+              With DocsKoala&apos;s inbuilt general components, you don&apos;t
+              need to worry about inserting a headline, text, code snippet, etc.
+              for each endpoint. Instead, you can just fill out the blanks in
+              the general component
             </p>
           </div>
         </div>

@@ -9,10 +9,10 @@ export default function FoundersLetter() {
             Founders Letter
           </h2>
           <p className="mt-8 text-left text-lg">
-            Hello, I'm Andreas, the founder of DocsKoala. With several years of
-            experience as a software developer and a passion for creating SaaS
-            products, I started DocsKoala with the goal of delivering value to
-            other businesses.
+            Hello, I&apos;m Andreas, the founder of DocsKoala. With several
+            years of experience as a software developer and a passion for
+            creating SaaS products, I started DocsKoala with the goal of
+            delivering value to other businesses.
             <br />
             <br />
             Having read countless documentation pages in my line of work, I know
@@ -30,14 +30,14 @@ export default function FoundersLetter() {
             <br />
             As a bootstrapped company, we listen closely to our users to shape
             our feature set. We believe that our users are what make DocsKoala
-            what it is, and we're always ready to adapt to their needs.
+            what it is, and we&apos;re always ready to adapt to their needs.
             <br />
             <br />
             As a bootstrapped company, our feature set is shaped by our users.
             We believe that our users are what make DocsKoala what it is, and
             therefore they should have a significant say in choosing what
             features we implement next. We are always ready to adapt to our
-            users' needs.
+            users&apos; needs.
             <br />
             <br />I invite you to join me on this exciting journey with
             DocsKoala!

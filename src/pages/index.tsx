@@ -141,8 +141,8 @@ const Home: NextPage = () => {
             headline="Keep your pages coming"
             description={
               <span>
-                Organize your help center's pages and sections in a few clicks.
-                Say goodbye to folders filled with markup files – with
+                Organize your help center&apos;s pages and sections in a few
+                clicks. Say goodbye to folders filled with markup files – with
                 DocsKoala, you can{" "}
                 <b className="font-semibold">easily browse and manage</b> your
                 content.
