@@ -10,7 +10,7 @@ export default function Feature(props: {
   reverse: boolean;
 }) {
   return (
-    <article className="flex items-center justify-center">
+    <article className="flex items-center justify-center overflow-hidden">
       <div
         className={`flex flex-col items-center justify-center gap-12 px-8 lg:gap-36 ${
           props.reverse ? "md:flex-row-reverse" : "md:flex-row"
