@@ -34,7 +34,7 @@ export default function Feature(props: {
           src={props.imageSrc}
           decoding="async"
           data-nimg="intrinsic"
-          className="max-w-sm lg:max-w-md"
+          className="max-w-full lg:max-w-md"
         />
       </div>
     </article>
