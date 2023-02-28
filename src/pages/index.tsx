@@ -123,8 +123,6 @@ const Home: NextPage = () => {
               onClick={(e) => {
                 if (isPlaying) {
                   e.currentTarget.pause();
-                } else {
-                  e.currentTarget.play();
                 }
               }}
               onPlay={handlePlay}
@@ -134,11 +132,11 @@ const Home: NextPage = () => {
             ></video>
             {!isPlaying && (
               <button
-                onClick={(e) => {
+                onClick={async (e) => {
                   const video = e.currentTarget
                     .previousElementSibling as HTMLVideoElement;
                   if (video) {
-                    video.play();
+                    return await video.play();
                   }
                 }}
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-[#3f3fe9] px-3 py-3 text-white"
@@ -146,7 +144,7 @@ const Home: NextPage = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 448 512"
                   className="ml-1.5 mt-0.5 fill-white"
                   height="30"
