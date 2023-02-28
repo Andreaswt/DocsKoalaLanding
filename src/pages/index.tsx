@@ -37,16 +37,19 @@ const Home: NextPage = () => {
           alt={"Logo"}
         />
         <div className="flex items-center justify-evenly gap-6 bg-cream">
-          <a href="#pricing" className="text-sm font-light">
+          <a
+            href="https://docskoala.com#pricing"
+            className="text-sm font-light"
+          >
             Pricing
           </a>
           <a
-            href="#founders-letter"
+            href="https://docskoala.com#founders-letter"
             className="hidden text-sm font-light sm:block"
           >
             Founders Letter
           </a>
-          <a href="#faq" className="text-sm font-light">
+          <a href="https://docskoala.com#faq" className="text-sm font-light">
             FAQ
           </a>
           {/* <a className="cursor-pointer whitespace-nowrap rounded-full bg-[#3f3fe9] px-3 py-2 text-sm font-medium tracking-tight text-white hover:scale-[0.98]">
@@ -88,7 +91,10 @@ const Home: NextPage = () => {
                 </span>
               </div>
               <div className="flex flex-col">
-                <a className="flex cursor-pointer gap-2 whitespace-nowrap rounded-2xl bg-[#3f3fe9] px-4 py-4 align-middle text-sm font-medium tracking-tight text-white hover:scale-[0.98]">
+                <a
+                  href="https://docskoala.com#pricing"
+                  className="flex cursor-pointer gap-2 whitespace-nowrap rounded-2xl bg-[#3f3fe9] px-4 py-4 align-middle text-sm font-medium tracking-tight text-white hover:scale-[0.98]"
+                >
                   <Image
                     src="/koala-white.svg"
                     height={20}
@@ -219,7 +225,7 @@ const Home: NextPage = () => {
               Build the documentation <br /> your users need
             </h1>
             <a
-              href="#pricing"
+              href="https://docskoala.com#pricing"
               className="flex w-max cursor-pointer gap-2 whitespace-nowrap rounded-2xl bg-[#3f3fe9] px-4 py-4 align-middle text-sm font-medium tracking-tight text-white hover:scale-[0.98]"
             >
               <Image
@@ -239,10 +245,16 @@ const Home: NextPage = () => {
               </div>
               <div className="flex flex-col gap-2">
                 <h4 className="font-medium uppercase text-gray-200">Product</h4>
-                <a href="#features" className="text-sm text-gray-300">
+                <a
+                  href="https://docskoala.com#features"
+                  className="text-sm text-gray-300"
+                >
                   Features
                 </a>
-                <a href="#faq" className="text-sm text-gray-300">
+                <a
+                  href="https://docskoala.com#faq"
+                  className="text-sm text-gray-300"
+                >
                   Frequenly Asked Questions
                 </a>
               </div>
@@ -250,7 +262,10 @@ const Home: NextPage = () => {
                 <h4 className="font-medium uppercase text-gray-200">
                   Resources
                 </h4>
-                <a href="#pricing" className="text-sm text-gray-300">
+                <a
+                  href="https://docskoala.com#pricing"
+                  className="text-sm text-gray-300"
+                >
                   Pricing
                 </a>
                 <a

@@ -43,6 +43,7 @@ export default function Feature(props: {
         )}
         {props.imageSrc ? (
           <img
+            alt={"Feature"}
             src={props.imageSrc}
             className="max-w-full rounded-lg md:rounded-2xl lg:max-w-md"
           />
