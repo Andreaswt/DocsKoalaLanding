@@ -32,6 +32,7 @@ export default function Feature(props: {
         </div>
         {props.videoSrc ? (
           <video
+            loop
             onPlay={(e) => (e.currentTarget.playbackRate = 1.5)}
             autoPlay={true}
             src={props.videoSrc}

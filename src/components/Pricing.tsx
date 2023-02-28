@@ -317,7 +317,7 @@ export default function Pricing() {
         <div className="flex items-center justify-center gap-2">
           <LockClosedIcon className="h-4 w-4" />
           <h4 className="text-gray-600">
-            100% secure payment, powered by Paddle
+            100% secure payment, powered by Lemon Squeezy
           </h4>
         </div>
         <div className="mt-10 flex justify-center">
