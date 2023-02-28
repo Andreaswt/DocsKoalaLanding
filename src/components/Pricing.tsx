@@ -3,24 +3,25 @@ import {
   LockClosedIcon,
   ReceiptRefundIcon,
 } from "@heroicons/react/24/outline";
-import Countdown from "react-countdown";
 
 export default function Pricing() {
-  const daysRenderer = ({ days }: { days: number }) => {
-    return <span>{days}</span>;
-  };
+  // const date = new Date("01 Apr 2023");
 
-  const hoursRenderer = ({ hours }: { hours: number }) => {
-    return <span>{hours}</span>;
-  };
+  // const daysRenderer = ({ days }: { days: number }) => {
+  //   return <span>{days}</span>;
+  // };
 
-  const minutesRenderer = ({ minutes }: { minutes: number }) => {
-    return <span>{minutes}</span>;
-  };
+  // const hoursRenderer = ({ hours }: { hours: number }) => {
+  //   return <span>{hours}</span>;
+  // };
 
-  const secondsRenderer = ({ seconds }: { seconds: number }) => {
-    return <span>{seconds}</span>;
-  };
+  // const minutesRenderer = ({ minutes }: { minutes: number }) => {
+  //   return <span>{minutes}</span>;
+  // };
+
+  // const secondsRenderer = ({ seconds }: { seconds: number }) => {
+  //   return <span>{seconds}</span>;
+  // };
 
   return (
     <section id="pricing" aria-labelledby="Pricing">
@@ -30,49 +31,38 @@ export default function Pricing() {
             Pricing
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Limited-time special launch offer ends in...
+            Limited-time special launch offer ends <br />{" "}
+            <span>1st of April</span>
           </p>
         </div>
-        <div className="my-8 flex justify-center">
+        {/* <div className="my-8 flex justify-center">
           <div className="grid max-w-fit grid-cols-2 justify-center gap-6 lg:grid-cols-4">
             <div className="flex flex-col items-center rounded-xl border border-gray-400 py-4 text-center">
               <h4 className="text-2xl font-semibold tracking-tight">Days</h4>
-              <p className="text-xl font-medium">
-                <Countdown
-                  renderer={daysRenderer}
-                  date={Date.now() + 999999999}
-                />
-              </p>
+              <div className="text-xl font-medium">
+                <Countdown renderer={daysRenderer} date={date} />
+              </div>
             </div>
             <div className="flex w-36 flex-col items-center rounded-xl border border-gray-400 py-4 text-center">
               <h4 className="text-2xl font-semibold tracking-tight">Hours</h4>
-              <p className="text-xl font-medium">
-                <Countdown
-                  renderer={hoursRenderer}
-                  date={Date.now() + 999999999}
-                />
-              </p>
+              <div className="text-xl font-medium">
+                <Countdown renderer={hoursRenderer} date={date} />
+              </div>
             </div>
             <div className="flex w-36 flex-col items-center rounded-xl border border-gray-400 py-4 text-center">
               <h4 className="text-2xl font-semibold tracking-tight">Minutes</h4>
-              <p className="text-xl font-medium">
-                <Countdown
-                  renderer={minutesRenderer}
-                  date={Date.now() + 999999999}
-                />
-              </p>
+              <div className="text-xl font-medium">
+                <Countdown renderer={minutesRenderer} date={date} />
+              </div>
             </div>
             <div className="flex w-36 flex-col items-center rounded-xl border border-gray-400 py-4 text-center">
               <h4 className="text-2xl font-semibold tracking-tight">Seconds</h4>
-              <p className="text-xl font-medium">
-                <Countdown
-                  renderer={secondsRenderer}
-                  date={Date.now() + 999999999}
-                />
-              </p>
+              <div className="text-xl font-medium">
+                <Countdown renderer={secondsRenderer} date={date} />
+              </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="my-12 space-y-16 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:mx-auto lg:max-w-4xl xl:max-w-none xl:grid-cols-2">
           <div className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-100">
             <div className="grid w-full grid-cols-1 items-center justify-center bg-gray-100 p-6 lg:grid-cols-2 lg:p-8">
