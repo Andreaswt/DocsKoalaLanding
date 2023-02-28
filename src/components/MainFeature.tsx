@@ -22,7 +22,8 @@ export default function MainFeature() {
         ></video> */}
         <video
           onPlay={(e) => (e.currentTarget.playbackRate = 1.5)}
-          autoPlay={true}
+          autoPlay
+          muted
           src="https://ik.imagekit.io/docskoala/endpoints.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1677574129952"
           className="relative mt-4 w-[98%] max-w-[1000px] rounded-2xl md:rounded-[30px] lg:w-[60%]"
         />

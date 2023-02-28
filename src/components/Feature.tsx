@@ -34,7 +34,8 @@ export default function Feature(props: {
           <video
             loop
             onPlay={(e) => (e.currentTarget.playbackRate = 1.5)}
-            autoPlay={true}
+            autoPlay
+            muted
             src={props.videoSrc}
             className="max-w-full rounded-lg md:rounded-2xl lg:max-w-md"
           />
