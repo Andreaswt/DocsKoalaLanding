@@ -183,7 +183,7 @@ export default function Pricing() {
               <a
                 className="mt-8 inline-flex w-full transform items-center justify-center rounded-xl border-2 border-black px-6 py-3 text-center text-black transition duration-200 ease-in-out hover:border-black/50 hover:bg-transparent focus:outline-none"
                 aria-label="Big fish tier"
-                href="/register"
+                href="https://docskoala.lemonsqueezy.com"
               >
                 Purchase Now
               </a>
@@ -306,7 +306,7 @@ export default function Pricing() {
                 <a
                   className="mt-8 inline-flex w-full transform items-center justify-center rounded-xl border-2 border-white bg-white px-6 py-3 text-center text-black transition duration-200 ease-in-out hover:border-white hover:bg-transparent hover:text-white focus:outline-none"
                   aria-label="Indie hacker tier"
-                  href="/register"
+                  href="https://docskoala.lemonsqueezy.com"
                 >
                   Purchase Now
                 </a>
