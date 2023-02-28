@@ -6,7 +6,8 @@ export default function Feature(props: {
   featureColor: string;
   headline: string;
   description: React.ReactNode;
-  imageSrc: string;
+  videoSrc?: string;
+  imageSrc?: string;
   reverse: boolean;
 }) {
   return (
@@ -29,13 +30,23 @@ export default function Feature(props: {
             {props.description}
           </p>
         </div>
-        <img
-          alt="Retweets"
-          src={props.imageSrc}
-          decoding="async"
-          data-nimg="intrinsic"
-          className="max-w-full lg:max-w-md"
-        />
+        {props.videoSrc ? (
+          <video
+            autoPlay={true}
+            src={props.videoSrc}
+            className="max-w-full rounded-lg md:rounded-2xl lg:max-w-md"
+          />
+        ) : (
+          <></>
+        )}
+        {props.imageSrc ? (
+          <img
+            src={props.imageSrc}
+            className="max-w-full rounded-lg md:rounded-2xl lg:max-w-md"
+          />
+        ) : (
+          <></>
+        )}
       </div>
     </article>
   );

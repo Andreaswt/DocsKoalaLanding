@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { useState } from "react";
 import FAQ from "../components/FAQ";
 import Feature from "../components/Feature";
 import FoundersLetter from "../components/FoundersLetter";
@@ -9,6 +10,16 @@ import Newsletter from "../components/Newsletter";
 import Pricing from "../components/Pricing";
 
 const Home: NextPage = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+  };
+
+  const handlePause = () => {
+    setIsPlaying(false);
+  };
+
   return (
     <>
       <Head>
@@ -109,32 +120,47 @@ const Home: NextPage = () => {
           </p>
           <div className="relative mt-4 flex w-[95%] max-w-[950px] justify-center lg:w-[80%]">
             <video
-              playsInline
-              poster="https://sidebird.s3.us-east-2.amazonaws.com/threadify.png"
+              onClick={(e) => {
+                if (isPlaying) {
+                  e.currentTarget.pause();
+                } else {
+                  e.currentTarget.play();
+                }
+              }}
+              onPlay={handlePlay}
+              onPause={handlePause}
               className="w-full rounded-lg object-cover md:rounded-2xl lg:min-h-[500px]"
-              src="https://firebasestorage.googleapis.com/v0/b/sidebird-8e11a.appspot.com/o/hero-video.mp4?alt=media&amp;token=cac6f095-c5b6-472c-9afe-9c037b2d08c2"
-              // style="box-shadow: rgba(0, 0, 0, 0) 0px 0.783403px 0.783403px 0px, rgba(0, 0, 0, 0.01) 0px 1.92107px 1.92107px 0px, rgba(0, 0, 0, 0.02) 0px 3.63429px 3.63429px 0px, rgba(0, 0, 0, 0.04) 0px 6.35486px 6.35486px 0px, rgba(0, 0, 0, 0.07) 0px 11.0474px 11.0474px 0px, rgba(0, 0, 0, 0.13) 0px 20.2497px 20.2497px 0px, rgba(0, 0, 0, 0.25) 0px 40px 40px 0px;"
+              src="https://ik.imagekit.io/docskoala/front.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1677577954460"
             ></video>
+            {!isPlaying && (
+              <button
+                onClick={(e) => {
+                  const video = e.currentTarget
+                    .previousElementSibling as HTMLVideoElement;
+                  if (video) {
+                    video.play();
+                  }
+                }}
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-[#3f3fe9] px-3 py-3 text-white"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  className="ml-1.5 mt-0.5 fill-white"
+                  height="30"
+                  width="30"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
+                </svg>
+              </button>
+            )}
           </div>
         </article>
         <MainFeature />
         <div id="features" className="mt-48 flex flex-col gap-48">
-          <Feature
-            featureColor="text-green-400"
-            feature="Custom Domain"
-            headline="Connect your own custom URL"
-            description={
-              <span>
-                Map the help center you created on DocsKoala (
-                <b className="font-semibold">printsoft.docskoala.com</b>) to
-                your own website (
-                <b className="font-semibold">help.printsoft.com</b>).
-              </span>
-            }
-            // Image of DocsKoala with two url bars and arrow between
-            imageSrc="/features-1.webp"
-            reverse={false}
-          />
           <Feature
             featureColor="text-blue-400"
             feature="One-Click Pages"
@@ -148,8 +174,7 @@ const Home: NextPage = () => {
                 content.
               </span>
             }
-            // TODO: nav menu gif
-            imageSrc="/features-2.webp"
+            videoSrc="https://ik.imagekit.io/docskoala/nav.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1677574129691"
             reverse={true}
           />
           <Feature
@@ -163,9 +188,24 @@ const Home: NextPage = () => {
                 appearance <b className="font-semibold"> everywhere</b>.
               </span>
             }
-            // TODO: Scrolling phone gif
-            imageSrc="/features-2.webp"
+            videoSrc="https://ik.imagekit.io/docskoala/mobile.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1677575215967"
             reverse={false}
+          />
+          <Feature
+            featureColor="text-green-400"
+            feature="Custom Domain"
+            headline="Connect your own custom URL"
+            description={
+              <span>
+                Map the help center you created on DocsKoala (
+                <b className="font-semibold">printsoft.docskoala.com</b>) to
+                your own website (
+                <b className="font-semibold">help.printsoft.com</b>).
+              </span>
+            }
+            // Image of DocsKoala with two url bars and arrow between
+            imageSrc="https://ik.imagekit.io/docskoala/printsoft.app.docskoala.com.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677575899733"
+            reverse={true}
           />
         </div>
         <Pricing />
