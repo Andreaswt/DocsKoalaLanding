@@ -132,12 +132,11 @@ const Home: NextPage = () => {
             ></video>
             {!isPlaying && (
               <button
+                // eslint-disable-next-line @typescript-eslint/no-misused-promises
                 onClick={async (e) => {
                   const video = e.currentTarget
                     .previousElementSibling as HTMLVideoElement;
-                  if (video) {
-                    return await video.play();
-                  }
+                  await video.play();
                 }}
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-[#3f3fe9] px-3 py-3 text-white"
               >
