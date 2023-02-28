@@ -32,6 +32,7 @@ export default function Feature(props: {
         </div>
         {props.videoSrc ? (
           <video
+            onPlay={(e) => (e.currentTarget.playbackRate = 1.5)}
             autoPlay={true}
             src={props.videoSrc}
             className="max-w-full rounded-lg md:rounded-2xl lg:max-w-md"

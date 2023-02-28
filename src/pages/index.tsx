@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import FAQ from "../components/FAQ";
 import Feature from "../components/Feature";
 import FoundersLetter from "../components/FoundersLetter";
@@ -136,6 +136,7 @@ const Home: NextPage = () => {
                 onClick={async (e) => {
                   const video = e.currentTarget
                     .previousElementSibling as HTMLVideoElement;
+                  video.playbackRate = 1.5;
                   await video.play();
                 }}
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-[#3f3fe9] px-3 py-3 text-white"
