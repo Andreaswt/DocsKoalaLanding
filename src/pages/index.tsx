@@ -52,9 +52,6 @@ const Home: NextPage = () => {
           <a href="https://docskoala.com#faq" className="text-sm font-light">
             FAQ
           </a>
-          {/* <a className="cursor-pointer whitespace-nowrap rounded-full bg-[#3f3fe9] px-3 py-2 text-sm font-medium tracking-tight text-white hover:scale-[0.98]">
-            Open app
-          </a> */}
         </div>
       </nav>
       <main className="bg-cream">
@@ -70,16 +67,6 @@ const Home: NextPage = () => {
               </strong>
             </h1>
             <section className="flex w-full flex-col items-center gap-4 self-center md:w-fit md:items-end md:self-end">
-              {/* <div className="flex -space-x-2 self-end">
-                <Image
-                  className="rounded-full"
-                  src="/weston.jpeg"
-                  height={30}
-                  width={30}
-                  alt={"Person"}
-                />
-                // COPY ABOVE IMAGE
-              </div> */}
               <div className="relative">
                 <p className="text-sm text-gray-500">
                   Limited launch offer available
@@ -197,7 +184,6 @@ const Home: NextPage = () => {
                 <b className="font-semibold">help.printsoft.com</b>).
               </span>
             }
-            // Image of DocsKoala with two url bars and arrow between
             imageSrc="https://ik.imagekit.io/docskoala/printsoft.app.docskoala.com.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677575899733"
             reverse={true}
           />
