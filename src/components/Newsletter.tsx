@@ -2,7 +2,10 @@ export default function Newsletter() {
   return (
     <>
       {/* Newsletter section */}
-      <div className="mx-auto max-w-7xl sm:px-6 sm:pt-12 md:pb-28 lg:px-8">
+      <div
+        id="newsletter"
+        className="mx-auto max-w-7xl sm:px-6 sm:pt-12 md:pb-28 lg:px-8"
+      >
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
           <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Get notified when we’re launching.
@@ -14,7 +17,7 @@ export default function Newsletter() {
           <form
             action="https://docskoala.lemonsqueezy.com/email-subscribe/external"
             method="post"
-            className="mx-auto mt-10 flex max-w-md gap-x-4"
+            className="mx-auto mt-10 flex max-w-md flex-col gap-6 gap-x-4 md:flex-row md:gap-4"
           >
             <label htmlFor="name" className="sr-only">
               Name

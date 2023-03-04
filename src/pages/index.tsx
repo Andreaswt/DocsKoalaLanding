@@ -60,14 +60,13 @@ const Home: NextPage = () => {
       <main className="bg-cream">
         <article className="flex flex-col items-center">
           <div className="flex flex-col gap-8 xl:gap-0">
-            <h1 className="mt-24 text-4xl font-medium sm:text-5xl lg:text-7xl">
+            <h1 className="mt-24 px-6 text-5xl font-medium sm:text-5xl lg:text-7xl">
               <strong>
-                The easiest way <br /> to{" "}
+                Build the help center
+                <br /> your users{" "}
                 <span className="inline-block bg-gradient-to-r from-blue-600 via-purple-500 to-indigo-400 bg-clip-text leading-tight text-transparent">
-                  swiftly
-                </span>{" "}
-                build your <br />
-                help center
+                  need
+                </span>
               </strong>
             </h1>
             <section className="flex w-full flex-col items-center gap-4 self-center md:w-fit md:items-end md:self-end">
@@ -90,7 +89,7 @@ const Home: NextPage = () => {
                   <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-green-500"></span>
                 </span>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-6 md:flex-row-reverse">
                 <a
                   href="https://docskoala.com#pricing"
                   className="flex cursor-pointer gap-2 whitespace-nowrap rounded-2xl bg-[#3f3fe9] px-4 py-4 align-middle text-sm font-medium tracking-tight text-white hover:scale-[0.98]"
@@ -101,23 +100,14 @@ const Home: NextPage = () => {
                     width={20}
                     alt={"Koala"}
                   />
-                  <span>Get Started</span>
+                  <span>See launch offer</span>
                 </a>
-                {/* <div className="flex items-end gap-2 self-end">
-                  <Image
-                    src="/arrow.webp"
-                    height={50}
-                    width={50}
-                    alt={"Arrow"}
-                  />
-                  <Image
-                    className="mb-1"
-                    src="/start-for-free.svg"
-                    height={10}
-                    width={75}
-                    alt={"Start for free"}
-                  />
-                </div> */}
+                <a
+                  href="https://docskoala.com#newsletter"
+                  className="flex-none rounded-2xl border border-gray-200 bg-white py-4 px-4 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                >
+                  Notify me on launch
+                </a>
               </div>
             </section>
           </div>

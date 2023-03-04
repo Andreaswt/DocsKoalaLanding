@@ -2,9 +2,9 @@ export default function FAQ() {
   return (
     <div id="faq" className="flex justify-center">
       <div className="border-r-1 my-32 flex w-10/12 flex-col items-center gap-12 rounded-3xl border border-gray-200 bg-gray-100 py-20 md:max-w-4xl md:gap-24">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 px-6">
           <h4 className="text-green-600">GOT A QUESTION?</h4>
-          <h1 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
+          <h1 className="text-center text-2xl font-semibold md:text-3xl lg:text-4xl">
             Things you might wonder.
           </h1>
         </div>
