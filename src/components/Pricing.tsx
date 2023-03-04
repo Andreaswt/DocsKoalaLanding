@@ -28,11 +28,11 @@ export default function Pricing() {
       <div className="relative mx-auto w-full max-w-7xl items-center px-8 pt-36 md:px-12 lg:px-16">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base font-semibold uppercase leading-7 text-indigo-600">
-            Pricing
+            Limited Time Launch Offer
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Limited-time special launch offer ends <br />{" "}
-            <span>1st of April</span>
+            Get 50% off the first 3 months
+            <br /> Ends 1st of April
           </p>
         </div>
         {/* <div className="my-8 flex justify-center">
@@ -74,14 +74,14 @@ export default function Pricing() {
               </div>
               <div className="mt-3 flex-col lg:mt-0 lg:ml-auto lg:text-right">
                 <p className="text-5xl font-light tracking-tight text-black">
-                  $<span>699</span>
+                  $<span>45</span>
                 </p>
                 <p className="flex flex-col text-sm text-black">
                   <span>
-                    <span className="line-through">$39</span> <span>$29</span> /
+                    <span className="line-through">$30</span> <span>$15</span> /
                     month
                   </span>
-                  <span>2 year access</span>
+                  <span>3 month access</span>
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Pricing() {
                       className="h-4 w-4"
                       aria-label="checkmark outline"
                     />
-                    <span className="ml-4">Up to 3 workspaces</span>
+                    <span className="ml-4">Up to 50.000 visits a month</span>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon
@@ -180,9 +180,9 @@ export default function Pricing() {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -right-8 z-10 rotate-45 overflow-visible rounded-sm bg-red-400 py-1 px-2 font-semibold">
+            {/* <div className="absolute -right-8 z-10 rotate-45 overflow-visible rounded-sm bg-red-400 py-1 px-2 font-semibold">
               Hands Off
-            </div>
+            </div> */}
             <div className="overflow-hidden rounded-3xl border border-gray-600 bg-black">
               <div className="grid w-full grid-cols-1 items-center justify-center bg-black p-6 lg:grid-cols-2 lg:p-8">
                 <div>
@@ -193,22 +193,19 @@ export default function Pricing() {
                     </span>
                   </h2>
                   <p className="mt-4 text-sm text-gray-100">
-                    If you already have a help center or any content,{" "}
-                    <span className="underline underline-offset-4">
-                      we will replicate it in DocsKoala for you.
-                    </span>{" "}
+                    For businesses wanting to reduce support volume further.
                   </p>
                 </div>
                 <div className="mt-3 flex-col lg:mt-0 lg:ml-auto lg:text-right">
                   <p className="text-5xl font-light tracking-tight text-white">
-                    $<span>999</span>
+                    $<span>105</span>
                   </p>
                   <p className="flex flex-col text-sm text-gray-100">
                     <span>
-                      <span className="line-through">$79</span> <span>$41</span>{" "}
+                      <span className="line-through">$70</span> <span>$35</span>{" "}
                       / month
                     </span>
-                    <span>2 year access</span>
+                    <span>3 month access</span>
                   </p>
                 </div>
               </div>
@@ -225,7 +222,7 @@ export default function Pricing() {
                       />
                       <span className="ml-4">All Features From Basic Plan</span>
                     </li>
-                    <li className="flex items-center">
+                    {/* <li className="flex items-center">
                       <CheckIcon
                         className="h-4 w-4"
                         aria-label="checkmark outline"
@@ -236,7 +233,7 @@ export default function Pricing() {
                         100 pages, provided you have existing docs or content
                         ready.
                       </span>
-                    </li>
+                    </li> */}
                     <li className="flex items-center">
                       <CheckIcon
                         className="h-4 w-4"
@@ -250,6 +247,13 @@ export default function Pricing() {
                         aria-label="checkmark outline"
                       />
                       <span className="ml-4">SEO Control</span>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckIcon
+                        className="h-4 w-4"
+                        aria-label="checkmark outline"
+                      />
+                      <span className="ml-4">Article Feedback</span>
                     </li>
                   </ul>
                   <ul
@@ -268,7 +272,7 @@ export default function Pricing() {
                         className="h-4 w-4"
                         aria-label="checkmark outline"
                       />
-                      <span className="ml-4">Up to 10 workspaces</span>
+                      <span className="ml-4">Up to 200.000 visits a month</span>
                     </li>
                     <li className="flex items-center">
                       <CheckIcon
@@ -283,13 +287,6 @@ export default function Pricing() {
                         aria-label="checkmark outline"
                       />
                       <span className="ml-4">Full Text Search</span>
-                    </li>
-                    <li className="flex items-center">
-                      <CheckIcon
-                        className="h-4 w-4"
-                        aria-label="checkmark outline"
-                      />
-                      <span className="ml-4">Article Feedback</span>
                     </li>
                   </ul>
                 </div>
