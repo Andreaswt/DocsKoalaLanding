@@ -32,7 +32,7 @@ export default function Pricing() {
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Get 50% off the first 3 months
-            <br /> Ends 1st of April
+            <br /> Ends 1st of May
           </p>
         </div>
         {/* <div className="my-8 flex justify-center">
