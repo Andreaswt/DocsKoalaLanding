@@ -16,7 +16,7 @@ export default function FAQ() {
             <p className="text-gray-500">
               We aim to launch the initial version of DocsKoala by the 1st of
               May 2023. This version will make you able to build a help center
-              as shown in GIF&apos;s on this page. Additional features will
+              as shown in video&apos;s on this page. Additional features will
               continuously be rolled out after launch.
             </p>
           </div>
@@ -42,13 +42,11 @@ export default function FAQ() {
           </div>
           <div className="space-y-2">
             <h3 className="text-xl font-medium md:text-2xl">
-              After the 2-year plan expires, what will happen?
+              After the 3-month plan expires, what will happen?
             </h3>
             <p className="text-gray-500">
-              After your 2-year founders plan expires, you will have the option
-              to switch to a monthly or yearly plan. Since you originally got
-              the founders plan, you will be offered an additional discount
-              compared to new subscribers.
+              After your 3-month offer plan expires, you will have the option to
+              switch to a monthly or yearly plan.
             </p>
           </div>
           <div className="space-y-2">
@@ -77,19 +75,19 @@ export default function FAQ() {
               problem in a few ways.
               <br />
               <br />
-              <b className="font-semibold">Simplicity and ease of use</b>{" "}
-              DocsKoala is extremely easy to use. We provide a service that
-              specifically makes building help centers a breeze without e.g.
-              markup files. We make it possible to build just by browsing.
+              <b className="font-semibold">Anyone can use it</b> DocsKoala is
+              extremely easy to use, and makes it possible for both developers
+              and customer support staff to edit the help center, since no
+              technical knowledge is needed.
               <br />
               <br />
               <b className="font-semibold">
                 A guided way to build help centers
               </b>{" "}
-              With DocsKoala&apos;s inbuilt general components, you don&apos;t
-              need to worry about inserting a headline, text, code snippet, etc.
-              for each endpoint. Instead, you can just fill out the blanks in
-              the general component
+              With DocsKoala&apos;s inbuilt general components, you e.g.
+              don&apos;t need to worry about inserting a headline, text, code
+              snippet, etc. for every endpoint. Instead, you can just insert an
+              endpoint component, and fill out the blanks.
             </p>
           </div>
         </div>

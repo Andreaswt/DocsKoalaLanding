@@ -122,7 +122,7 @@ const Home: NextPage = () => {
                   video.playbackRate = 1.5;
                   await video.play();
                 }}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-[#3f3fe9] px-3 py-3 text-white"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform rounded-full bg-[#3f3fe9] px-3 py-3.5 text-white"
               >
                 <svg
                   stroke="currentColor"

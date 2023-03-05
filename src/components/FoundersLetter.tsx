@@ -12,15 +12,17 @@ export default function FoundersLetter() {
             Hello, I&apos;m Andreas, the founder of DocsKoala. With several
             years of experience as a software developer and a passion for
             creating SaaS products, I started DocsKoala with the goal of
-            delivering value to other businesses.
+            delivering help centers that anyone in a company can help create and
+            edit.
             <br />
             <br />
-            Having read countless documentation pages in my line of work, I know
-            that some help centers are better than others. I used to assume that
-            businesses created their documentation using simple editors.
-            However, when I began developing my own product, I struggled to
-            document its functionality and found no reliable way to quickly
-            create the necessary documentation.
+            Having read countless documentation pages in my line of work, I used
+            to assume that businesses created their documentation using
+            webflow-like editors. However, when I began developing a software
+            product of my own, I struggled to document its functionality and
+            found no reliable way to quickly create the necessary documentation.
+            I found that to build help centers, often you would need some type
+            of technical knowledge, and that it would take time to build.
             <br />
             <br />
             This experience inspired me to start DocsKoala, with the aim of
@@ -31,13 +33,6 @@ export default function FoundersLetter() {
             As a bootstrapped company, we listen closely to our users to shape
             our feature set. We believe that our users are what make DocsKoala
             what it is, and we&apos;re always ready to adapt to their needs.
-            <br />
-            <br />
-            As a bootstrapped company, our feature set is shaped by our users.
-            We believe that our users are what make DocsKoala what it is, and
-            therefore they should have a significant say in choosing what
-            features we implement next. We are always ready to adapt to our
-            users&apos; needs.
             <br />
             <br />I invite you to join me on this exciting journey with
             DocsKoala!
