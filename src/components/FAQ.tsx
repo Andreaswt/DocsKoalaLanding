@@ -26,8 +26,8 @@ export default function FAQ() {
             </h3>
             <p className="text-gray-500">
               The launch offers respectively map to the basic and premium plans
-              that will be available when DocsKoala launches. Both plans are two
-              year subscriptions, and offer discounts for the entire
+              that will be available when DocsKoala launches. Both plans are
+              three month subscriptions, and offer discounts for the entire
               subscription.
             </p>
           </div>
