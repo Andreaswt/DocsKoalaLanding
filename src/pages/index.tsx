@@ -99,10 +99,10 @@ const Home: NextPage = () => {
             </section>
           </div>
           <p className="mt-28 text-sm font-medium tracking-tight text-gray-400">
-            Preview ↓
+            Editor ↓
           </p>
-          <div className="relative mt-4 flex w-[95%] max-w-[950px] justify-center lg:w-[80%]">
-            <video
+          <div className="relative mt-4 flex w-[95%] max-w-[1550px] justify-center lg:w-[80%]">
+            {/* <video
               onClick={(e) => {
                 if (isPlaying) {
                   e.currentTarget.pause();
@@ -112,8 +112,19 @@ const Home: NextPage = () => {
               onPause={handlePause}
               className="w-full rounded-lg object-cover md:rounded-2xl lg:min-h-[500px]"
               src="https://ik.imagekit.io/docskoala/front.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1677577954460"
-            ></video>
-            {!isPlaying && (
+            ></video> */}
+            <img
+              alt={"Front Image"}
+              src="https://ik.imagekit.io/docskoala/frontimg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678390900285"
+              // className="max-w-full rounded-lg md:rounded-2xl lg:max-w-md"
+              className="hidden w-full rounded-lg shadow-lg sm:block sm:rounded-xl"
+            />
+            <img
+              alt={"Front Image"}
+              src="https://ik.imagekit.io/docskoala/frontimgphone.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678391519752"
+              className="mx-4 h-1/2 w-full overflow-hidden rounded-lg shadow-lg sm:hidden md:rounded-xl"
+            />
+            {/* {!isPlaying && (
               <button
                 // eslint-disable-next-line @typescript-eslint/no-misused-promises
                 onClick={async (e) => {
@@ -137,7 +148,7 @@ const Home: NextPage = () => {
                   <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path>
                 </svg>
               </button>
-            )}
+            )} */}
           </div>
         </article>
         <MainFeature />
