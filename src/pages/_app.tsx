@@ -21,9 +21,11 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
     // Track page views
     const handleRouteChange = () => usermaven.track("pageview");
+    // eslint-disable-next-line @typescript-eslint/no-misused-promises
     router.events.on("routeChangeComplete", handleRouteChange);
 
     return () => {
+      // eslint-disable-next-line @typescript-eslint/no-misused-promises
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, []);
