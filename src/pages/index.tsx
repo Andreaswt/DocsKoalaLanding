@@ -99,7 +99,7 @@ const Home: NextPage = () => {
                 </a>
                 <a
                   href="https://docskoala.com#newsletter"
-                  className="flex-none rounded-2xl border border-gray-200 bg-white py-4 px-4 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="flex-none rounded-2xl border border-gray-200 bg-white py-4 px-4 text-center text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Get in touch
                 </a>
