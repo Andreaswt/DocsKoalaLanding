@@ -8,11 +8,12 @@ export default function Newsletter() {
       >
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
           <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Get notified when we’re launching.
+            Get in touch
           </h2>
           <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
-            The first version of the product is currently being built and will
-            soon be ready.
+            How can we solve your problem specifically? If you want to learn
+            more sign up, and I will reach out to you as soon as possible, so we
+            can cover your use cases.
           </p>
           <form
             action="https://docskoala.lemonsqueezy.com/email-subscribe/external"
@@ -47,7 +48,7 @@ export default function Newsletter() {
               type="submit"
               className="flex-none rounded-md bg-white py-2.5 px-3.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
-              Notify me
+              Get in touch
             </button>
           </form>
           <svg

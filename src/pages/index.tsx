@@ -101,7 +101,7 @@ const Home: NextPage = () => {
                   href="https://docskoala.com#newsletter"
                   className="flex-none rounded-2xl border border-gray-200 bg-white py-4 px-4 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
-                  Notify me on launch
+                  Get in touch
                 </a>
               </div>
             </section>
@@ -109,7 +109,7 @@ const Home: NextPage = () => {
           <p className="mt-28 text-sm font-medium tracking-tight text-gray-400">
             Editor ↓
           </p>
-          <div className="relative mt-4 flex w-[95%] max-w-[1550px] justify-center lg:w-[80%]">
+          <div className="relative mt-4 flex w-[85%] max-w-[1350px] justify-center lg:w-[70%]">
             {/* <video
               onClick={(e) => {
                 if (isPlaying) {
