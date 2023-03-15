@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 import { useRef, useState } from "react";
 import FAQ from "../components/FAQ";
 import Feature from "../components/Feature";
@@ -26,6 +27,19 @@ const Home: NextPage = () => {
         <title>DocsKoala</title>
         <meta name="description" content="DocsKoala" />
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11119779200"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-11119779200');
+        `}
+        </Script>
       </Head>
 
       <nav className="flex h-28 w-full items-center justify-between bg-cream px-10 lg:px-36 2xl:px-96  ">
