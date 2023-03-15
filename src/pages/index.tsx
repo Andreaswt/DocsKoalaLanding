@@ -59,13 +59,21 @@ const Home: NextPage = () => {
           <div className="flex flex-col gap-8 xl:gap-0">
             <h1 className="mt-24 px-6 text-5xl font-medium sm:text-5xl lg:text-7xl">
               <strong>
-                Build the help center
-                <br /> your users{" "}
                 <span className="inline-block bg-gradient-to-r from-blue-600 via-purple-500 to-indigo-400 bg-clip-text leading-tight text-transparent">
-                  need
-                </span>
+                  AI assisted
+                </span>{" "}
+                <br />
+                help center builder
+                {/* <br /> your users{" "} */}
               </strong>
             </h1>
+            <p className="mt-6 mb-10 max-w-xl px-6  text-xl text-gray-500">
+              <span>
+                Let AI assist you with writing, SEO optimization, article
+                generation, user search optimization, so you can create a
+                professional help center faster.
+              </span>
+            </p>
             <section className="flex w-full flex-col items-center gap-4 self-center md:w-fit md:items-end md:self-end">
               <div className="relative">
                 <p className="text-sm text-gray-500">

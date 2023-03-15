@@ -11,6 +11,29 @@ export default function FAQ() {
         <div className="flex flex-col gap-12 px-12">
           <div className="space-y-2">
             <h3 className="text-xl font-medium md:text-2xl">
+              DocsKoala vs other solutions
+            </h3>
+            <p className="text-gray-500">
+              DocsKoala differentiates itself from other solutions to the
+              problem in a few ways.
+              <br />
+              <br />
+              <b className="font-semibold">AI powered</b> DocsKoala takes a new
+              approach, and let AI assist you in all the tasks you otherwise
+              would have to do manually. AI will generate help articles based on
+              content, assist you when writing, suggest improvements, fix all
+              types, optimize for SEO keywords, and more.
+              <br />
+              <br />
+              <b className="font-semibold">Anyone can use it</b> With
+              DocsKoala&apos;s inbuilt components, you can easily insert a
+              component such as an API endpoint, and fill out the blanks.
+              DocsKoala makes it possible for both developers and customer
+              support staff to edit the help center.
+            </p>
+          </div>
+          <div className="space-y-2">
+            <h3 className="text-xl font-medium md:text-2xl">
               When will DocsKoala be launched?
             </h3>
             <p className="text-gray-500">
@@ -29,15 +52,6 @@ export default function FAQ() {
               that will be available when DocsKoala launches. Both plans are
               three month subscriptions, and offer discounts for the entire
               subscription.
-            </p>
-          </div>
-          <div className="space-y-2">
-            <h3 className="text-xl font-medium md:text-2xl">
-              I need a feature, can you build it?
-            </h3>
-            <p className="text-gray-500">
-              Absolutely, reach out to me on email, and I will get back as soon
-              as possible with a plan for when the feature will be ready.
             </p>
           </div>
           <div className="space-y-2">
@@ -64,30 +78,6 @@ export default function FAQ() {
             <p className="text-gray-500">
               Certainly! You will get access to all features and future updates
               according to the plan you selected.
-            </p>
-          </div>
-          <div className="space-y-2">
-            <h3 className="text-xl font-medium md:text-2xl">
-              Do I still need DocsKoala if I use webflow or alike?
-            </h3>
-            <p className="text-gray-500">
-              DocsKoala differentiates itself from other solutions to the
-              problem in a few ways.
-              <br />
-              <br />
-              <b className="font-semibold">Anyone can use it</b> DocsKoala is
-              extremely easy to use, and makes it possible for both developers
-              and customer support staff to edit the help center, since no
-              technical knowledge is needed.
-              <br />
-              <br />
-              <b className="font-semibold">
-                A guided way to build help centers
-              </b>{" "}
-              With DocsKoala&apos;s inbuilt general components, you e.g.
-              don&apos;t need to worry about inserting a headline, text, code
-              snippet, etc. for every endpoint. Instead, you can just insert an
-              endpoint component, and fill out the blanks.
             </p>
           </div>
         </div>

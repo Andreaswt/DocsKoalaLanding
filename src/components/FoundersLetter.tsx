@@ -21,21 +21,16 @@ export default function FoundersLetter() {
             webflow-like editors. However, when I began developing a software
             product of my own, I struggled to document its functionality and
             found no reliable way to quickly create the necessary documentation.
-            I found that to build help centers, often you would need some type
-            of technical knowledge, and that it would take time to build.
-            <br />
-            <br />
-            This experience inspired me to start DocsKoala, with the aim of
-            helping other businesses save time during the documentation process.
-            After all, most products require some form of documentation.
+            With all the new AI becoming available, I set out to create a tool
+            for building a help center <strong>faster</strong>,{" "}
+            <strong>easier</strong>, with the end result being{" "}
+            <strong>more professional</strong> than what you could have done on
+            your own.
             <br />
             <br />
             As a bootstrapped company, we listen closely to our users to shape
-            our feature set. We believe that our users are what make DocsKoala
-            what it is, and we&apos;re always ready to adapt to their needs.
-            <br />
-            <br />I invite you to join me on this exciting journey with
-            DocsKoala!
+            our feature set. I invite you to join me on this exciting journey
+            with DocsKoala!
           </p>
         </div>
         <div className="flex items-center space-x-4 text-start lg:space-x-6">
