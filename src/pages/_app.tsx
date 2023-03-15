@@ -1,7 +1,7 @@
 import { Work_Sans } from "@next/font/google";
 import { usermavenClient, UsermavenClient } from "@usermaven/sdk-js";
 import { type AppType } from "next/dist/shared/lib/utils";
-import router from "next/router";
+import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 import "../styles/globals.css";
@@ -12,6 +12,8 @@ const workSans = Work_Sans({
 });
 
 const MyApp: AppType = ({ Component, pageProps }) => {
+  const router = useRouter();
+
   useEffect(() => {
     // Init Usermaven
     const usermaven: UsermavenClient = usermavenClient({
@@ -23,6 +25,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     const handleRouteChange = () => usermaven.track("pageview");
     // eslint-disable-next-line @typescript-eslint/no-misused-promises
     router.events.on("routeChangeComplete", handleRouteChange);
+    console.log("sadf");
 
     return () => {
       // eslint-disable-next-line @typescript-eslint/no-misused-promises
