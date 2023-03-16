@@ -265,7 +265,7 @@ const Home: NextPage = () => {
                   Pricing
                 </a>
                 <a
-                  href="mailto:support@docskoala.com"
+                  href="mailto:andreas@docskoala.com"
                   className="text-sm text-gray-300"
                 >
                   Contact
